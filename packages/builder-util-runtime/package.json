@@ -1,6 +1,9 @@
 {
-  "name": "builder-util-runtime",
+  "name": "@EYadroshnikov/builder-util-runtime",
   "version": "9.5.1",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "main": "out/index.js",
   "author": "Vladimir Krivosheev",
   "license": "MIT",

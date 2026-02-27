@@ -1,7 +1,10 @@
 {
-  "name": "app-builder-lib",
+  "name": "@EYadroshnikov/app-builder-lib",
   "description": "electron-builder lib",
   "version": "26.8.1",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "main": "out/index.js",
   "files": [
     "out",
@@ -59,14 +62,14 @@
     "@types/fs-extra": "9.0.13",
     "async-exit-hook": "^2.0.1",
     "builder-util": "workspace:*",
-    "builder-util-runtime": "workspace:*",
+    "@EYadroshnikov/builder-util-runtime": "workspace:*",
     "chromium-pickle-js": "^0.2.0",
     "ci-info": "4.3.1",
     "debug": "^4.3.4",
     "dotenv": "^16.4.5",
     "dotenv-expand": "^11.0.6",
     "ejs": "^3.1.8",
-    "electron-publish": "workspace:*",
+    "@EYadroshnikov/electron-publish": "workspace:*",
     "fs-extra": "^10.1.0",
     "hosted-git-info": "^4.1.0",
     "isbinaryfile": "^5.0.0",

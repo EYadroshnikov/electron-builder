@@ -17,6 +17,7 @@
     "ci:validate": "pnpm compile && pnpm pretest && pnpm generate-all",
     "ci:version": "pnpm i && pnpm changelog && changeset version && node scripts/update-package-version-export.js && pnpm compile && pnpm generate-all && git add .",
     "ci:publish": "pnpm i && pnpm compile && pnpm publish -r --tag ${NPM_DIST_TAG:-next} && changeset tag",
+    "ci:publish:github": "pnpm i && pnpm compile && pnpm publish -r --no-git-checks --filter \"@EYadroshnikov/*\"",
     "docker-images": "docker/build.sh",
     "docker-push": "docker/push.sh",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",

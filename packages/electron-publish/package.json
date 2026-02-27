@@ -1,6 +1,9 @@
 {
-  "name": "electron-publish",
+  "name": "@EYadroshnikov/electron-publish",
   "version": "26.8.1",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "main": "out/index.js",
   "author": "Vladimir Krivosheev",
   "license": "MIT",
@@ -17,7 +20,7 @@
   "dependencies": {
     "@types/fs-extra": "^9.0.11",
     "builder-util": "workspace:*",
-    "builder-util-runtime": "workspace:*",
+    "@EYadroshnikov/builder-util-runtime": "workspace:*",
     "chalk": "^4.1.2",
     "form-data": "^4.0.5",
     "fs-extra": "^10.1.0",

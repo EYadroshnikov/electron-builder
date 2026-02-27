@@ -16,7 +16,7 @@
     "template.nuspectemplate"
   ],
   "dependencies": {
-    "app-builder-lib": "workspace:*",
+    "@EYadroshnikov/app-builder-lib": "workspace:*",
     "builder-util": "workspace:*",
     "electron-winstaller": "5.4.0"
   },

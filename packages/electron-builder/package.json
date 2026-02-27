@@ -51,9 +51,9 @@
   "bugs": "https://github.com/electron-userland/electron-builder/issues",
   "homepage": "https://github.com/electron-userland/electron-builder",
   "dependencies": {
-    "app-builder-lib": "workspace:*",
+    "@EYadroshnikov/app-builder-lib": "workspace:*",
     "builder-util": "workspace:*",
-    "builder-util-runtime": "workspace:*",
+    "@EYadroshnikov/builder-util-runtime": "workspace:*",
     "chalk": "^4.1.2",
     "ci-info": "^4.2.0",
     "dmg-builder": "workspace:*",
